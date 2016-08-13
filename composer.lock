@@ -1,0 +1,162 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "57d10d3d1d4d51e98e56452f962ddb55",
+    "content-hash": "2701c9186325d20370ae8b4a23e38c38",
+    "packages": [
+        {
+            "name": "sammaye/mongoyii",
+            "version": "8.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Sammaye/MongoYii.git",
+                "reference": "17816e724c9ac8c9269defec7ed00fc7785cc5d3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Sammaye/MongoYii/zipball/17816e724c9ac8c9269defec7ed00fc7785cc5d3",
+                "reference": "17816e724c9ac8c9269defec7ed00fc7785cc5d3",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mongo": "*"
+            },
+            "type": "yii-extension",
+            "autoload": {
+                "classmap": [
+                    "./behaviors",
+                    "./util",
+                    "./validators",
+                    "./EMongoClient.php",
+                    "./EMongoCriteria.php",
+                    "./EMongoCursor.php",
+                    "./EMongoDataProvider.php",
+                    "./EMongoDocument.php",
+                    "./EMongoException.php",
+                    "./EMongoFile.php",
+                    "./EMongoLogRoute.php",
+                    "./EMongoModel.php",
+                    "./EMongoSort.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sammaye",
+                    "homepage": "http://sammaye.wordpress.com"
+                }
+            ],
+            "description": "A Yii MongoDB ORM",
+            "keywords": [
+                "mongodb",
+                "orm",
+                "yii"
+            ],
+            "time": "2016-07-20 13:05:07"
+        },
+        {
+            "name": "yiisoft/yii",
+            "version": "1.1.17",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii.git",
+                "reference": "467ff50a77bf7030a168defc1d47f446136d6228"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/yii/zipball/467ff50a77bf7030a168defc1d47f446136d6228",
+                "reference": "467ff50a77bf7030a168defc1d47f446136d6228",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.1.0"
+            },
+            "bin": [
+                "framework/yiic"
+            ],
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "framework/YiiBase.php",
+                    "framework/yii.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Qiang Xue",
+                    "email": "qiang.xue@gmail.com",
+                    "homepage": "http://www.yiiframework.com/",
+                    "role": "Founder and project lead"
+                },
+                {
+                    "name": "Alexander Makarov",
+                    "email": "sam@rmcreative.ru",
+                    "homepage": "http://rmcreative.ru/",
+                    "role": "Core framework development"
+                },
+                {
+                    "name": "Maurizio Domba",
+                    "homepage": "http://mdomba.info/",
+                    "role": "Core framework development"
+                },
+                {
+                    "name": "Carsten Brandt",
+                    "email": "mail@cebe.cc",
+                    "homepage": "http://cebe.cc/",
+                    "role": "Core framework development"
+                },
+                {
+                    "name": "Wei Zhuo",
+                    "email": "weizhuo@gmail.com",
+                    "role": "Project site maintenance and development"
+                },
+                {
+                    "name": "Sebastián Thierer",
+                    "email": "sebas@artfos.com",
+                    "role": "Component development"
+                },
+                {
+                    "name": "Jeffrey Winesett",
+                    "email": "jefftulsa@gmail.com",
+                    "role": "Documentation and marketing"
+                },
+                {
+                    "name": "Timur Ruziev",
+                    "email": "resurtm@gmail.com",
+                    "homepage": "http://resurtm.com/",
+                    "role": "Core framework development"
+                },
+                {
+                    "name": "Paul Klimov",
+                    "email": "klimov.paul@gmail.com",
+                    "role": "Core framework development"
+                }
+            ],
+            "description": "Yii Web Programming Framework",
+            "homepage": "http://www.yiiframework.com/",
+            "keywords": [
+                "framework",
+                "yii"
+            ],
+            "time": "2016-01-13 16:23:58"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

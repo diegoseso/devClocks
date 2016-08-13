@@ -1,0 +1,375 @@
+2016/08/13 06:18:18 [error] [exception.MongoConnectionException] exception 'MongoConnectionException' with message 'Failed to connect to: localhost:27017: Remote server has closed the connection' in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoClient.php:214
+Stack trace:
+#0 /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoClient.php(214): MongoClient->__construct('mongodb://local...', Array)
+#1 /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoClient.php(185): EMongoClient->connect()
+#2 /var/www/html/devClocks/vendor/yiisoft/yii/framework/base/CModule.php(394): EMongoClient->init()
+#3 /var/www/html/devClocks/vendor/yiisoft/yii/framework/base/CModule.php(103): CModule->getComponent('mongodb')
+#4 /var/www/html/devClocks/protected/views/site/index.php(8): CModule->__get('mongodb')
+#5 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CBaseController.php(126): require('/var/www/html/d...')
+#6 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/d...', NULL, true)
+#7 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/d...', NULL, true)
+#8 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#9 /var/www/html/devClocks/protected/controllers/SiteController.php(32): CController->render('index')
+#10 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#11 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#13 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#15 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#16 /var/www/html/devClocks/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#17 /var/www/html/devClocks/index.php(15): CApplication->run()
+#18 {main}
+REQUEST_URI=/devClocks/index.php
+---
+2016/08/13 06:32:08 [error] [exception.MongoConnectionException] exception 'MongoConnectionException' with message 'Failed to connect to: localhost:27017: Remote server has closed the connection' in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoClient.php:214
+Stack trace:
+#0 /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoClient.php(214): MongoClient->__construct('mongodb://local...', Array)
+#1 /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoClient.php(185): EMongoClient->connect()
+#2 /var/www/html/devClocks/vendor/yiisoft/yii/framework/base/CModule.php(394): EMongoClient->init()
+#3 /var/www/html/devClocks/vendor/yiisoft/yii/framework/base/CModule.php(103): CModule->getComponent('mongodb')
+#4 /var/www/html/devClocks/protected/views/site/index.php(8): CModule->__get('mongodb')
+#5 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CBaseController.php(126): require('/var/www/html/d...')
+#6 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/d...', NULL, true)
+#7 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/d...', NULL, true)
+#8 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#9 /var/www/html/devClocks/protected/controllers/SiteController.php(32): CController->render('index')
+#10 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#11 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#13 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#15 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#16 /var/www/html/devClocks/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#17 /var/www/html/devClocks/index.php(15): CApplication->run()
+#18 {main}
+REQUEST_URI=/devClocks/
+---
+2016/08/13 06:33:01 [error] [exception.MongoConnectionException] exception 'MongoConnectionException' with message 'Failed to connect to: localhost:27017: Remote server has closed the connection' in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoClient.php:214
+Stack trace:
+#0 /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoClient.php(214): MongoClient->__construct('mongodb://local...', Array)
+#1 /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoClient.php(185): EMongoClient->connect()
+#2 /var/www/html/devClocks/vendor/yiisoft/yii/framework/base/CModule.php(394): EMongoClient->init()
+#3 /var/www/html/devClocks/vendor/yiisoft/yii/framework/base/CModule.php(103): CModule->getComponent('mongodb')
+#4 /var/www/html/devClocks/protected/views/site/index.php(8): CModule->__get('mongodb')
+#5 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CBaseController.php(126): require('/var/www/html/d...')
+#6 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/d...', NULL, true)
+#7 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/d...', NULL, true)
+#8 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#9 /var/www/html/devClocks/protected/controllers/SiteController.php(32): CController->render('index')
+#10 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#11 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#13 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#15 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#16 /var/www/html/devClocks/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#17 /var/www/html/devClocks/index.php(15): CApplication->run()
+#18 {main}
+REQUEST_URI=/devClocks/
+---
+2016/08/13 06:33:04 [error] [exception.MongoConnectionException] exception 'MongoConnectionException' with message 'Failed to connect to: localhost:27017: Remote server has closed the connection' in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoClient.php:214
+Stack trace:
+#0 /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoClient.php(214): MongoClient->__construct('mongodb://local...', Array)
+#1 /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoClient.php(185): EMongoClient->connect()
+#2 /var/www/html/devClocks/vendor/yiisoft/yii/framework/base/CModule.php(394): EMongoClient->init()
+#3 /var/www/html/devClocks/vendor/yiisoft/yii/framework/base/CModule.php(103): CModule->getComponent('mongodb')
+#4 /var/www/html/devClocks/protected/views/site/index.php(8): CModule->__get('mongodb')
+#5 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CBaseController.php(126): require('/var/www/html/d...')
+#6 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/d...', NULL, true)
+#7 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/d...', NULL, true)
+#8 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#9 /var/www/html/devClocks/protected/controllers/SiteController.php(32): CController->render('index')
+#10 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#11 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#13 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('')
+#15 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#16 /var/www/html/devClocks/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#17 /var/www/html/devClocks/index.php(15): CApplication->run()
+#18 {main}
+REQUEST_URI=/devClocks/
+---
+2016/08/13 06:39:28 [error] [exception.CException] exception 'CException' with message 'TimeBox and its behaviors do not have a method or closure named "findAll".' in /var/www/html/devClocks/vendor/yiisoft/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php(113): CComponent->__call('findAll', Array)
+#1 /var/www/html/devClocks/protected/controllers/TimeBoxController.php(31): EMongoModel->__call('findAll', Array)
+#2 /var/www/html/devClocks/protected/controllers/TimeBoxController.php(31): TimeBox->findAll()
+#3 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): TimeBoxController->actionIndex()
+#4 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#8 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('timeBox/index')
+#9 /var/www/html/devClocks/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /var/www/html/devClocks/index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/devClocks/index.php/timeBox/index
+---
+2016/08/13 06:47:37 [error] [php] Trying to get property of non-object (/var/www/html/devClocks/protected/views/timeBox/index.php:9)
+Stack trace:
+#0 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(869): TimeBoxController->renderFile()
+#1 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(782): TimeBoxController->renderPartial()
+#2 /var/www/html/devClocks/protected/controllers/TimeBoxController.php(32): TimeBoxController->render()
+#3 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): TimeBoxController->actionIndex()
+#4 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(286): TimeBoxController->runAction()
+#6 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(265): TimeBoxController->runActionWithFilters()
+#7 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): TimeBoxController->run()
+#8 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/html/devClocks/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /var/www/html/devClocks/index.php(15): CWebApplication->run()
+REQUEST_URI=/devClocks/index.php/timeBox/index
+in /var/www/html/devClocks/protected/views/timeBox/index.php (9)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (32)
+in /var/www/html/devClocks/index.php (15)
+2016/08/13 09:09:41 [error] [exception.CException] exception 'CException' with message 'TimeBoxController contains improperly nested widget tags in its view "/var/www/html/devClocks/protected/views/timeBox/new.php". A CActiveForm widget does not have an endWidget() call.' in /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CBaseController.php:101
+Stack trace:
+#0 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/d...', Array, true)
+#1 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(782): CController->renderPartial('new', Array, true)
+#2 /var/www/html/devClocks/protected/controllers/TimeBoxController.php(41): CController->render('new', Array)
+#3 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): TimeBoxController->actionNew()
+#4 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('new')
+#8 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('timeBox/new')
+#9 /var/www/html/devClocks/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /var/www/html/devClocks/index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/devClocks/index.php/timeBox/new
+---
+2016/08/13 09:11:27 [error] [exception.CException] exception 'CException' with message 'TimeBoxController contains improperly nested widget tags in its view "/var/www/html/devClocks/protected/views/timeBox/new.php". A CActiveForm widget does not have an endWidget() call.' in /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CBaseController.php:101
+Stack trace:
+#0 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/d...', Array, true)
+#1 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(782): CController->renderPartial('new', Array, true)
+#2 /var/www/html/devClocks/protected/controllers/TimeBoxController.php(41): CController->render('new', Array)
+#3 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): TimeBoxController->actionNew()
+#4 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('new')
+#8 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('timeBox/new')
+#9 /var/www/html/devClocks/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /var/www/html/devClocks/index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/devClocks/index.php/timeBox/new
+---
+2016/08/13 09:11:29 [error] [exception.CException] exception 'CException' with message 'TimeBoxController contains improperly nested widget tags in its view "/var/www/html/devClocks/protected/views/timeBox/new.php". A CActiveForm widget does not have an endWidget() call.' in /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CBaseController.php:101
+Stack trace:
+#0 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/d...', Array, true)
+#1 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(782): CController->renderPartial('new', Array, true)
+#2 /var/www/html/devClocks/protected/controllers/TimeBoxController.php(41): CController->render('new', Array)
+#3 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): TimeBoxController->actionNew()
+#4 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('new')
+#8 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('timeBox/new')
+#9 /var/www/html/devClocks/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /var/www/html/devClocks/index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/devClocks/index.php/timeBox/new
+---
+2016/08/13 10:07:27 [error] [php] Undefined index: TimeBox (/var/www/html/devClocks/protected/controllers/TimeBoxController.php:43)
+Stack trace:
+#0 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(286): TimeBoxController->runAction()
+#1 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(265): TimeBoxController->runActionWithFilters()
+#2 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): TimeBoxController->run()
+#3 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/devClocks/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /var/www/html/devClocks/index.php(15): CWebApplication->run()
+REQUEST_URI=/devClocks/index.php/timeBox/new
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (43)
+in /var/www/html/devClocks/index.php (15)
+2016/08/13 10:10:30 [warning] [application] Failed to set unsafe attribute "description" of "TimeBox".
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (271)
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (63)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (43)
+2016/08/13 10:10:30 [warning] [application] Failed to set unsafe attribute "tags" of "TimeBox".
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (271)
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (63)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (43)
+2016/08/13 10:10:30 [warning] [application] Failed to set unsafe attribute "duration" of "TimeBox".
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (271)
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (63)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (43)
+2016/08/13 10:10:30 [error] [exception.CException] exception 'CException' with message 'TimeBoxController cannot find the requested view "admin".' in /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#1 /var/www/html/devClocks/protected/controllers/TimeBoxController.php(57): CController->render('admin', Array)
+#2 /var/www/html/devClocks/protected/controllers/TimeBoxController.php(45): TimeBoxController->actionAdmin()
+#3 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): TimeBoxController->actionNew()
+#4 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('new')
+#8 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('timeBox/new')
+#9 /var/www/html/devClocks/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /var/www/html/devClocks/index.php(15): CApplication->run()
+#11 {main}
+REQUEST_URI=/devClocks/index.php/timeBox/new
+HTTP_REFERER=http://192.168.56.102/devClocks/index.php/timeBox/new
+---
+2016/08/13 10:11:22 [warning] [application] Failed to set unsafe attribute "description" of "TimeBox".
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (271)
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (63)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (43)
+2016/08/13 10:11:22 [warning] [application] Failed to set unsafe attribute "tags" of "TimeBox".
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (271)
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (63)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (43)
+2016/08/13 10:11:22 [warning] [application] Failed to set unsafe attribute "duration" of "TimeBox".
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (271)
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (63)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (43)
+2016/08/13 10:11:22 [error] [php] Trying to get property of non-object (/var/www/html/devClocks/protected/views/timeBox/admin.php:10)
+Stack trace:
+#0 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(869): TimeBoxController->renderFile()
+#1 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(782): TimeBoxController->renderPartial()
+#2 /var/www/html/devClocks/protected/controllers/TimeBoxController.php(57): TimeBoxController->render()
+#3 /var/www/html/devClocks/protected/controllers/TimeBoxController.php(45): TimeBoxController->actionAdmin()
+#4 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/actions/CInlineAction.php(49): TimeBoxController->actionNew()
+#5 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(286): TimeBoxController->runAction()
+#7 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CController.php(265): TimeBoxController->runActionWithFilters()
+#8 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CWebApplication.php(282): TimeBoxController->run()
+#9 /var/www/html/devClocks/vendor/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /var/www/html/devClocks/vendor/yiisoft/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /var/www/html/devClocks/index.php(15): CWebApplication->run()
+REQUEST_URI=/devClocks/index.php/timeBox/new
+in /var/www/html/devClocks/protected/views/timeBox/admin.php (10)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (57)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (45)
+2016/08/13 10:12:59 [warning] [application] Failed to set unsafe attribute "description" of "TimeBox".
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (271)
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (63)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (43)
+2016/08/13 10:12:59 [warning] [application] Failed to set unsafe attribute "tags" of "TimeBox".
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (271)
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (63)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (43)
+2016/08/13 10:12:59 [warning] [application] Failed to set unsafe attribute "duration" of "TimeBox".
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (271)
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (63)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (43)
+2016/08/13 10:23:58 [warning] [application] Failed to set unsafe attribute "description" of "TimeBox".
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (271)
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (63)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (43)
+2016/08/13 10:23:58 [warning] [application] Failed to set unsafe attribute "tags" of "TimeBox".
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (271)
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (63)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (43)
+2016/08/13 10:23:58 [warning] [application] Failed to set unsafe attribute "duration" of "TimeBox".
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (271)
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (63)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (43)
+2016/08/13 10:24:02 [warning] [application] Failed to set unsafe attribute "description" of "TimeBox".
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (271)
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (63)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (43)
+2016/08/13 10:24:02 [warning] [application] Failed to set unsafe attribute "tags" of "TimeBox".
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (271)
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (63)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (43)
+2016/08/13 10:24:02 [warning] [application] Failed to set unsafe attribute "duration" of "TimeBox".
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (271)
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (63)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (43)
+2016/08/13 10:24:05 [warning] [application] Failed to set unsafe attribute "description" of "TimeBox".
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (271)
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (63)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (43)
+2016/08/13 10:24:05 [warning] [application] Failed to set unsafe attribute "tags" of "TimeBox".
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (271)
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (63)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (43)
+2016/08/13 10:24:05 [warning] [application] Failed to set unsafe attribute "duration" of "TimeBox".
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (271)
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (63)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (43)
+2016/08/13 10:26:45 [warning] [application] Failed to set unsafe attribute "description" of "TimeBox".
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (271)
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (63)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (43)
+2016/08/13 10:26:45 [warning] [application] Failed to set unsafe attribute "tags" of "TimeBox".
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (271)
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (63)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (43)
+2016/08/13 10:26:45 [warning] [application] Failed to set unsafe attribute "duration" of "TimeBox".
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (271)
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (63)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (43)
+2016/08/13 10:27:55 [warning] [application] Failed to set unsafe attribute "description" of "TimeBox".
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (271)
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (63)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (44)
+2016/08/13 10:27:55 [warning] [application] Failed to set unsafe attribute "tags" of "TimeBox".
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (271)
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (63)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (44)
+2016/08/13 10:27:55 [warning] [application] Failed to set unsafe attribute "duration" of "TimeBox".
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (271)
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (63)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (44)
+2016/08/13 10:28:38 [warning] [application] Failed to set unsafe attribute "TimeBox" of "TimeBox".
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (271)
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (63)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (44)
+2016/08/13 10:28:38 [warning] [application] Failed to set unsafe attribute "yt0" of "TimeBox".
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (271)
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (63)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (44)
+2016/08/13 10:28:43 [warning] [application] Failed to set unsafe attribute "TimeBox" of "TimeBox".
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (271)
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (63)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (44)
+2016/08/13 10:28:43 [warning] [application] Failed to set unsafe attribute "yt0" of "TimeBox".
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (271)
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (63)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (44)
+2016/08/13 10:31:10 [warning] [application] Failed to set unsafe attribute "TimeBox" of "TimeBox".
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (271)
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (63)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (44)
+2016/08/13 10:31:10 [warning] [application] Failed to set unsafe attribute "yt0" of "TimeBox".
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (271)
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (63)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (44)
+2016/08/13 10:31:52 [warning] [application] Failed to set unsafe attribute "description" of "TimeBox".
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (271)
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (63)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (44)
+2016/08/13 10:31:52 [warning] [application] Failed to set unsafe attribute "tags" of "TimeBox".
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (271)
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (63)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (44)
+2016/08/13 10:31:52 [warning] [application] Failed to set unsafe attribute "duration" of "TimeBox".
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (271)
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (63)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (44)
+2016/08/13 10:31:55 [warning] [application] Failed to set unsafe attribute "description" of "TimeBox".
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (271)
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (63)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (44)
+2016/08/13 10:31:55 [warning] [application] Failed to set unsafe attribute "tags" of "TimeBox".
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (271)
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (63)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (44)
+2016/08/13 10:31:55 [warning] [application] Failed to set unsafe attribute "duration" of "TimeBox".
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (271)
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (63)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (44)
+2016/08/13 10:31:59 [warning] [application] Failed to set unsafe attribute "description" of "TimeBox".
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (271)
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (63)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (44)
+2016/08/13 10:31:59 [warning] [application] Failed to set unsafe attribute "tags" of "TimeBox".
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (271)
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (63)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (44)
+2016/08/13 10:31:59 [warning] [application] Failed to set unsafe attribute "duration" of "TimeBox".
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (271)
+in /var/www/html/devClocks/vendor/sammaye/mongoyii/EMongoModel.php (63)
+in /var/www/html/devClocks/protected/controllers/TimeBoxController.php (44)
