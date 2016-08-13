@@ -14,10 +14,12 @@ Class TimeBox extends EMongoDocument
 
     public $status;
 
+    public $startDate;
+
     public function rules ()
     {
         return array(
-            array('description, tags, duration, interruption, status', 'safe')
+            array('description, tags, duration, interruption, status, startDate', 'safe')
         );
     }
 
