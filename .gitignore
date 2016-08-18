@@ -1,0 +1,5 @@
+vendor/
+web/assets
+web/protected/runtime
+composer.lock
+
